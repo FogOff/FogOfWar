@@ -1,1 +1,5 @@
 theme: minima
+title: My Site
+description: A brief description of my site
+baseurl: ""
+url: "https://your-github-username.github.io/your-repo-name"
