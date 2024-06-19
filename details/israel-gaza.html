@@ -4,11 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Israel/Gaza Conflict</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .container {
+            max-width: 1100px;
+        }
+        .sidebar {
+            position: sticky;
+            top: 70px;
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Israel/Gaza Conflict</h1>
-    <p>This is a detailed analysis of the Israel/Gaza conflict.</p>
-    <a href="../index.html">Back to map</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Fog of War</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <nav class="col-md-3 sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#summary">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#current-situation">Current Situation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#impact">Impact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sources">Sources</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col-md-9 content">
+                <section id="summary">
+                    <h1>Israel/Gaza Conflict</h1>
+                    <p class="lead">A brief summary of the Israel/Gaza conflict.</p>
+                </section>
+                <section id="history">
+                    <h2>History</h2>
+                    <p>Detailed information about the historical context of the conflict...</p>
+                </section>
+                <section id="current-situation">
+                    <h2>Current Situation</h2>
+                    <p>More detailed information about the current situation...</p>
+                </section>
+                <section id="impact">
+                    <h2>Impact</h2>
+                    <p>Information about the impact of the conflict...</p>
+                </section>
+                <section id="sources">
+                    <h2>Sources</h2>
+                    <ul>
+                        <li><a href="#">Source 1</a></li>
+                        <li><a href="#">Source 2</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
